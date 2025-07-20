@@ -1,0 +1,22 @@
+BasedOnStyle: WebKit
+
+UseTab: Always
+IndentWidth: 4
+TabWidth: 4
+
+MaxEmptyLinesToKeep: 1
+AccessModifierOffset: 1
+
+AlignConsecutiveBitFields: AcrossComments
+AlignOperands: DontAlign
+AllowAllParametersOfDeclarationOnNextLine: true
+BitFieldColonSpacing: Both
+PointerAlignment: Left
+
+BreakBeforeBinaryOperators: NonAssignment
+# CAnnotations
+AttributeMacros: [IN, OUT, IN_OPTIONAL, OUT_OPTIONAL]
+Macros:
+- THEN={
+- BEGIN={
+- END=}

@@ -1,0 +1,23 @@
+# Editor settings
+.vscode/*
+.vs
+# CMake
+build
+.build
+.cache
+*.a
+# Binaries
+bin
+#> Executables
+*.exe
+*.out
+*.app
+# > Static
+*.lai
+*.la
+*.a
+*.lib
+# > Shared
+*.so
+*.dylib
+*.dll
